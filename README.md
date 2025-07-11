@@ -170,7 +170,7 @@ mvn exec:java -Dexec.mainClass="org.example.Main"
 
 **Your Name**
 - GitHub: [@OuamboC](https://github.com/OuamboC)
-- LinkedIn: [Canis Ouambo](https://www.linkedin.com/in/canis-breal-ouambo/))
+- LinkedIn: [Canis Ouambo](https://www.linkedin.com/in/canis-breal-ouambo/)
 
 ---
 
