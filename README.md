@@ -51,7 +51,6 @@ Create a `.env` file in the root directory:
 ```env
 AWS_ACCESS_KEY_ID=your_access_key_here
 AWS_SECRET_ACCESS_KEY=your_secret_key_here
-AWS_REGION=us-east-1
 ```
 
 **⚠️ Security Note**: The `.env` file is automatically ignored by Git to protect your credentials.
