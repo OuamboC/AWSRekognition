@@ -11,7 +11,6 @@ A Java-based image analysis tool that uses **AWS Rekognition** to detect faces, 
 - **Image Annotation**: Generate bounding boxes around detected features
 - **Local Image Processing**: Load and process images from local directories
 - **Secure Configuration**: Store AWS credentials securely via `.env` file
-- **Modular Architecture**: Clean, maintainable utility/controller structure
 
 ---
 
@@ -20,14 +19,19 @@ A Java-based image analysis tool that uses **AWS Rekognition** to detect faces, 
 ```
 AWSRekognition/
 ├── src/
-│   └── main/
-│       └── java/
-│           ├── AWSRekognitionController.java
-│           ├── AWSRekognitionUtils.java
-│           └── org/example/Main.java
-├── .env                    # AWS credentials (ignored by Git)
-├── .gitignore             # Ensures no secrets are pushed
-├── pom.xml                # Maven dependencies
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── org/example/
+│   │   │   │   └── Main.java
+│   │   │   ├── AWSRekognitionController.java    
+│   │   │   └── AWSRekognitionUtils.java         
+│   │   └── resources/
+│   │       └── [multiple test images]
+│   └── test/
+├── target/
+├── .env
+├── .gitignore
+├── pom.xml
 └── README.md
 ```
 
